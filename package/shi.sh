@@ -129,7 +129,7 @@ run=\"bash main.sh\" """
      fi
      # get sourceFile
      sourceFile=$(echo $source_code | grep -oP '(?<=sourceFile=").*?(?=")')
-     if [ -z $sourceFile ]; then
+     if [ -z $sourceFile ]; thenpa
           echo "shi: $2: Something is missing in the file"
           exit 1
      fi
